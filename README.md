@@ -1,4 +1,4 @@
-# Mini Social (Mini Twitter Clone)
+# Mini Social (Mini Twitter)
 
 A decentralized social media application built with Ethereum Smart Contracts and ReactJS.
 
