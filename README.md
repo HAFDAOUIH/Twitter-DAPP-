@@ -2,7 +2,7 @@
 
 A decentralized social media application built with Ethereum Smart Contracts and ReactJS.
 
-![Mini Social Interface](demo-screenshots/interface.png)
+![Mini Social Interface](imgs/1.png)
 
 ## Overview
 
