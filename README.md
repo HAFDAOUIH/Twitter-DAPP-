@@ -2,7 +2,6 @@
 
 A decentralized social media application built with Ethereum Smart Contracts and ReactJS.
 
-![Mini Social Interface](imgs/1.png)
 
 ## Overview
 
@@ -22,19 +21,19 @@ Mini Social is a decentralized application (DApp) that provides a Twitter-like s
 ## Interface Screenshots
 
 ### Initial Connection Screen
-![Connection Screen](demo-screenshots/connection.png)
+![Connection Screen](imgs/1.png)
 Users are prompted to connect their MetaMask wallet when first accessing the application.
 
 ### Main Interface
-![Main Interface](demo-screenshots/main-interface.png)
+![Main Interface](imgs/2.png)
 The main interface shows the connected account address and provides a simple posting interface.
 
 ### Transaction Flow
-![Transaction Example](demo-screenshots/transaction.png)
+![Transaction Example](imgs/3.png)
 Each interaction with the application triggers a MetaMask transaction confirmation.
 
 ### News Feed
-![News Feed](demo-screenshots/news-feed.png)
+![News Feed](imgs/4.png)
 Posts appear in the news feed with engagement metrics and timestamps.
 
 ## Prerequisites
