@@ -1,0 +1,172 @@
+/* Enhanced styles for Mini Social platform */
+
+/* Container styling */
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 2rem;
+}
+
+/* Header styling */
+h3 {
+    color: #1a73e8;
+    font-size: 2.5rem;
+    font-weight: 700;
+    margin-bottom: 1.5rem;
+    text-align: center;
+}
+
+h4 {
+    color: #5f6368;
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
+}
+
+/* Connected account styling */
+h4:nth-of-type(1) {
+    background: #f8f9fa;
+    padding: 1rem;
+    border-radius: 8px;
+    border: 1px solid #e0e0e0;
+    font-family: monospace;
+    word-break: break-all;
+}
+
+/* Textarea styling */
+.form-control {
+    border: 2px solid #e0e0e0;
+    border-radius: 12px;
+    padding: 1rem;
+    font-size: 1.1rem;
+    transition: all 0.3s ease;
+    resize: vertical;
+    min-height: 100px;
+}
+
+.form-control:focus {
+    border-color: #1a73e8;
+    box-shadow: 0 0 0 0.2rem rgba(26, 115, 232, 0.25);
+}
+
+/* Publish button styling */
+.btn-primary {
+    background-color: #1a73e8;
+    border: none;
+    padding: 0.8rem 2rem;
+    font-size: 1.1rem;
+    border-radius: 8px;
+    transition: all 0.3s ease;
+}
+
+.btn-primary:hover {
+    background-color: #1557b0;
+    transform: translateY(-1px);
+    box-shadow: 0 4px 12px rgba(26, 115, 232, 0.2);
+}
+
+/* News Feed section */
+.list-group {
+    border-radius: 12px;
+    overflow: hidden;
+}
+
+.list-group-item {
+    border: none;
+    padding: 1rem;
+    background: transparent;
+}
+
+/* Card styling */
+.card {
+    border: none;
+    border-radius: 16px;
+    padding: 1.5rem;
+    margin-bottom: 1.5rem;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+    transition: all 0.3s ease;
+    background: white;
+}
+
+.card:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.1);
+}
+
+.card-title {
+    color: #202124;
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+    line-height: 1.5;
+}
+
+/* Post metadata styling */
+.card small {
+    color: #5f6368;
+    display: block;
+    margin-bottom: 1rem;
+}
+
+/* Like/Dislike buttons styling */
+.btn-success, .btn-danger {
+    padding: 0.5rem 1.2rem;
+    border-radius: 20px;
+    font-size: 0.9rem;
+    font-weight: 500;
+    transition: all 0.2s ease;
+    margin-right: 1rem;
+    border: none;
+}
+
+.btn-success {
+    background-color: #34a853;
+}
+
+.btn-success:hover {
+    background-color: #2d904b;
+    transform: translateY(-1px);
+}
+
+.btn-danger {
+    background-color: #ea4335;
+}
+
+.btn-danger:hover {
+    background-color: #d33426;
+    transform: translateY(-1px);
+}
+
+/* Loading spinner styling */
+.spinner-border {
+    color: #1a73e8;
+    width: 3rem;
+    height: 3rem;
+}
+
+/* Alert styling */
+.alert-danger {
+    background-color: #fce8e6;
+    color: #ea4335;
+    border-color: #fad2cf;
+    border-radius: 8px;
+    padding: 1rem 1.5rem;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .container {
+        padding: 1rem;
+    }
+    
+    h3 {
+        font-size: 2rem;
+    }
+    
+    .card {
+        padding: 1rem;
+    }
+    
+    .btn-success, .btn-danger {
+        width: 100%;
+        margin-bottom: 0.5rem;
+    }
+}
